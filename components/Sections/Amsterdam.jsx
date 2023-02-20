@@ -15,11 +15,11 @@ const Amsterdam = () => {
     <Wrapper>
       <div className="bg-[#fff] shadow-3xl py-[3.75rem]">
         <div className="max-w-[64.25rem] mx-auto px-[20px]">
-          <h2 className="mb-[1.5625rem] text-[#CC4100]">We are VU Amsterdam</h2>
+          <h2 className="text-[#cc4100] text-[2.375rem] font-light leading-[3.5rem] pb-10">We are VU Amsterdam</h2>
         </div>
         <div>
           <div className="overflow-hidden">
-            <div className="grid grid-cols-5 justify-center items-stretch gap-20 w-[2000px] overflow-hidden">
+            <div className="grid grid-cols-5 justify-center items-stretch gap-12 w-[2000px] overflow-hidden">
               <div className="">
                 {" "}
                 <Image
@@ -45,7 +45,7 @@ const Amsterdam = () => {
                 <Image
                   src={Black}
                   alt="black"
-                  className="object-cover object-center"
+                  className="object-cover object-center pb-10"
                 />
                 <div className="flex">
                   <div>
@@ -64,7 +64,7 @@ const Amsterdam = () => {
                 <Image
                   src={Black}
                   alt="black"
-                  className="object-cover object-center"
+                  className="object-cover object-center pb-10"
                 />
                 <div className="flex">
                   <div>
@@ -73,7 +73,7 @@ const Amsterdam = () => {
                     </h1>
                     <p>Read more</p>
                   </div>
-                  <p className="flex flex-col justify-end">
+                  <p className="flex flex-col justify-end pb-10">
                     <FaArrowRight />
                   </p>
                 </div>
@@ -83,7 +83,7 @@ const Amsterdam = () => {
                 <Image
                   src={Black}
                   alt="black"
-                  className="object-cover object-center"
+                  className="object-cover object-center pb-10"
                 />
                 <div className="flex">
                   <div>
@@ -92,7 +92,7 @@ const Amsterdam = () => {
                     </h1>
                     <p>Read more</p>
                   </div>
-                  <p className="flex flex-col justify-end">
+                  <p className="flex flex-col justify-end pb-10">
                     <FaArrowRight />
                   </p>
                 </div>
@@ -102,7 +102,7 @@ const Amsterdam = () => {
                 <Image
                   src={Black}
                   alt="black"
-                  className="object-cover object-center"
+                  className="object-cover object-center pb-10"
                 />
                 <div className="flex">
                   <div>
