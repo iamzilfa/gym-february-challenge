@@ -8,7 +8,7 @@ const Vacancies = () => {
           <div className="bg-[#0077B3] w-full flex items-center gap-20 py-[2.8125rem] px-[3.75rem]">
             <div className="text-[#fff]">
               <h1 className="text-[1.4963rem] font-normal leading-[2.25rem]">
-                Do you also want to change your world?
+              Working at VU Amsterdam?
               </h1>
             </div>
             <div className="bg-[#FFFFFF] py-[0.9375rem] px-[30px]">
