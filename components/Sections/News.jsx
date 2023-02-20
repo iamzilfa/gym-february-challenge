@@ -17,7 +17,7 @@ const News = () => {
                   <div>
                     <h1 className="text-[#3b2171] text-[18px] font-bold leading-[30px]">08 Feb 2023</h1>
                     <p className="text-[1.4963rem] font-light leading-[1.875rem] mt-2">Earth quarkes Turkey and Syria</p>
-                    <p className="absolute bottom-0">
+                    <p className="absolute bottom-0 right-0">
                       <FaArrowRight />
                     </p>
                   </div>
@@ -25,11 +25,11 @@ const News = () => {
               </div>
               <div className="flex space-x-4">
                 <Image src={War} alt="war"  className="w-[284px] h-[216px] object-cover object-center"/>
-                <div>
+                <div className="relative">
                   <div>
-                    <h1>08 Feb 2023</h1>
-                    <p>Earth quarkes Turkey</p>
-                    <p>
+                    <h1 className="text-[#3b2171] text-[18px] font-bold leading-[30px]">08 Feb 2023</h1>
+                    <p className="text-[1.4963rem] font-light leading-[1.875rem] mt-2">Earth quarkes Turkey and Syria</p>
+                    <p className="absolute bottom-0 right-0">
                       <FaArrowRight />
                     </p>
                   </div>
@@ -39,11 +39,11 @@ const News = () => {
             <div className="flex flex-col gap-24">
               <div className="flex space-x-4">
                 <Image src={War} alt="war"  className="w-[113px] h-[86px] object-cover object-center" />
-                <div>
+                <div className="relative">
                   <div>
                     <h1 className="text-[#3b2171] text-[18px] font-bold leading-[30px]">08 Feb 2023</h1>
-                    <p>Earth quarkes Turkey</p>
-                    <p>
+                    <p className="text-[1.4963rem] font-light leading-[1.875rem] mt-2">Earth quarkes Turkey and Syria</p>
+                    <p className="absolute bottom-0 right-0">
                       <FaArrowRight />
                     </p>
                   </div>
@@ -51,11 +51,11 @@ const News = () => {
               </div>
               <div className="flex space-x-4">
                 <Image src={War} alt="war" className="w-[113px] h-[86px] object-cover object-center" />
-                <div>
+                <div className="relative">
                   <div>
-                    <h1>08 Feb 2023</h1>
-                    <p>Earth quarkes Turkey</p>
-                    <p>
+                    <h1 className="text-[#3b2171] text-[18px] font-bold leading-[30px]">08 Feb 2023</h1>
+                    <p className="text-[1.4963rem] font-light leading-[1.875rem] mt-2">Earth quarkes Turkey and Syria</p>
+                    <p className="absolute bottom-0 right-0">
                       <FaArrowRight />
                     </p>
                   </div>
@@ -63,11 +63,11 @@ const News = () => {
               </div>
               <div className="flex space-x-4">
                 <Image src={War} alt="war" className="w-[113px] h-[86px] object-cover object-center" />
-                <div>
+                <div className="relative">
                   <div>
-                    <h1>08 Feb 2023</h1>
-                    <p>Earth quarkes Turkey</p>
-                    <p>
+                    <h1 className="text-[#3b2171] text-[18px] font-bold leading-[30px]">08 Feb 2023</h1>
+                    <p className="text-[1.4963rem] font-light leading-[1.875rem] mt-2">Earth quarkes Turkey and Syria</p>
+                    <p className="absolute bottom-0 right-0">
                       <FaArrowRight />
                     </p>
                   </div>
