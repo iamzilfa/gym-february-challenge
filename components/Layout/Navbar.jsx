@@ -2,13 +2,18 @@ import Wrapper from "../Wrappers/Wrapper";
 import VuLogo from "../../public/assets/vectors/VU-logo.svg";
 import Image from "next/image";
 import { FaRegUser, FaSearch, FaBars } from "react-icons/fa";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const handleMenu = () => setMenuOpen(!menuOpen);
+
+  useEffect(() => {
+    document.body.style.overflow = menuOpen? "hidden" : "auto";
+    return () => (document.body.style.overflow = "scroll");
+  }, [menuOpen]);
+
   return (
     <>
       <Wrapper>
