@@ -1,3 +1,16 @@
+import Amsterdam from "@/components/Sections/Amsterdam";
+import Calender from "@/components/Sections/Calender";
+import Corona from "@/components/Sections/Corona";
+import Graduation from "@/components/Sections/Graduation";
+import Hero from "@/components/Sections/Hero";
+import Impact from "@/components/Sections/Impact";
+import Look from "@/components/Sections/Look";
+import Master from "@/components/Sections/Master";
+import Menu from "@/components/Sections/Menu";
+import News from "@/components/Sections/News";
+import People from "@/components/Sections/People";
+import Search from "@/components/Sections/Search";
+import Vacancies from "@/components/Sections/Vacancies";
 import Head from "next/head";
 
 export default function Home() {
@@ -9,9 +22,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-3xl font-bold underline text-red-600">
-        It works Well!
-      </h1>
+      <Hero />
+      <Search />
+      <People />
+      <Graduation />
+      <Master />
+      <Impact />
+      <Corona />
+      <News />
+      <Calender />
+      <Vacancies />
+      <Amsterdam />
+      <Look />
+      <Menu />
     </>
   );
 }
