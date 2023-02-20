@@ -5,3 +5,7 @@
 body{
   @apply bg-[#f2efed] 
 }
+
+#sear{
+  @apply text-[#fff]
+}

@@ -11,13 +11,13 @@ const News = () => {
           <h1 className="mb-[1.5625rem] text-[#3b2171] text-[2.375rem] font-light leading-[3.5rem]">News</h1>
           <div className="flex gap-40 items-center">
             <div className="flex flex-col gap-6">
-              <div className="flex space-x-4 ">
+              <div className="flex space-x-4">
                 <Image src={War} alt="war" className="w-[284px] h-[216px] object-cover object-center" />
-                <div>
+                <div className="relative">
                   <div>
-                    <h1>08 Feb 2023</h1>
-                    <p>Earth quarkes Turkey</p>
-                    <p>
+                    <h1 className="text-[#3b2171] text-[18px] font-bold leading-[30px]">08 Feb 2023</h1>
+                    <p className="text-[1.4963rem] font-light leading-[1.875rem] mt-2">Earth quarkes Turkey and Syria</p>
+                    <p className="absolute bottom-0">
                       <FaArrowRight />
                     </p>
                   </div>
@@ -41,7 +41,7 @@ const News = () => {
                 <Image src={War} alt="war"  className="w-[113px] h-[86px] object-cover object-center" />
                 <div>
                   <div>
-                    <h1>08 Feb 2023</h1>
+                    <h1 className="text-[#3b2171] text-[18px] font-bold leading-[30px]">08 Feb 2023</h1>
                     <p>Earth quarkes Turkey</p>
                     <p>
                       <FaArrowRight />

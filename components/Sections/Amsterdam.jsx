@@ -18,8 +18,8 @@ const Amsterdam = () => {
           <h2 className="mb-[1.5625rem] text-[#CC4100]">We are VU Amsterdam</h2>
         </div>
         <div>
-          <div className="max-w-[64.25rem] mx-auto px-[20px]">
-            <div className="flex -translate-x-[30px] justify-center items-stretch gap-10">
+          <div className="overflow-hidden">
+            <div className="grid grid-cols-5 justify-center items-stretch gap-20 w-[2000px] overflow-hidden">
               <div className="">
                 {" "}
                 <Image
@@ -27,10 +27,17 @@ const Amsterdam = () => {
                   alt="black"
                   className=" object-cover object-center"
                 />
-                <h1>VU Dream Teams</h1>
-                <p>
-                  <FaArrowRight />
-                </p>
+                <div className="flex">
+                  <div>
+                    <h1 className="text-[#cc4100] text-[1.5rem] font-light leading-[2.25rem] ">
+                      Vrije Schrijver (Writer in Residence)
+                    </h1>
+                    <p>Read more</p>
+                  </div>
+                  <p className="flex flex-col justify-end">
+                    <FaArrowRight />
+                  </p>
+                </div>
               </div>
 
               <div>
@@ -40,10 +47,17 @@ const Amsterdam = () => {
                   alt="black"
                   className="object-cover object-center"
                 />
-                <h1>VU Dream Teams</h1>
-                <p>
-                  <FaArrowRight />
-                </p>
+                <div className="flex">
+                  <div>
+                    <h1 className="text-[#cc4100] text-[1.5rem] font-light leading-[2.25rem] ">
+                      Vrije Schrijver (Writer in Residence)
+                    </h1>
+                    <p>Read more</p>
+                  </div>
+                  <p className="flex flex-col justify-end">
+                    <FaArrowRight />
+                  </p>
+                </div>
               </div>
               <div>
                 {" "}
@@ -52,10 +66,17 @@ const Amsterdam = () => {
                   alt="black"
                   className="object-cover object-center"
                 />
-                <h1>VU Dream Teams</h1>
-                <p>
-                  <FaArrowRight />
-                </p>
+                <div className="flex">
+                  <div>
+                    <h1 className="text-[#cc4100] text-[1.5rem] font-light leading-[2.25rem] ">
+                      Vrije Schrijver (Writer in Residence)
+                    </h1>
+                    <p>Read more</p>
+                  </div>
+                  <p className="flex flex-col justify-end">
+                    <FaArrowRight />
+                  </p>
+                </div>
               </div>
               <div>
                 {" "}
@@ -64,10 +85,17 @@ const Amsterdam = () => {
                   alt="black"
                   className="object-cover object-center"
                 />
-                <h1>VU Dream Teams</h1>
-                <p>
-                  <FaArrowRight />
-                </p>
+                <div className="flex">
+                  <div>
+                    <h1 className="text-[#cc4100] text-[1.5rem] font-light leading-[2.25rem] ">
+                      Vrije Schrijver (Writer in Residence)
+                    </h1>
+                    <p>Read more</p>
+                  </div>
+                  <p className="flex flex-col justify-end">
+                    <FaArrowRight />
+                  </p>
+                </div>
               </div>
               <div>
                 {" "}
@@ -76,21 +104,29 @@ const Amsterdam = () => {
                   alt="black"
                   className="object-cover object-center"
                 />
-                <h1>VU Dream Teams</h1>
-                <p>
-                  <FaArrowRight />
-                </p>
+                <div className="flex">
+                  <div>
+                    <h1 className="text-[#cc4100] text-[1.5rem] font-light leading-[2.25rem] ">
+                      Vrije Schrijver (Writer in Residence)
+                    </h1>
+                    <p>Read more</p>
+                  </div>
+                  <p className="flex flex-col justify-end">
+                    <FaArrowRight />
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="flex items-center justify-end">
-              <div className="flex items-center justify-end gap-6 bg-[#FCD3B6] p-4">
-                <span>
-                  <FaAngleLeft size={28} />
-                </span>
-                <span>
-                  <FaAngleRight size={28} />
-                </span>
-              </div>
+          </div>
+
+          <div className="flex items-center justify-end mt-20">
+            <div className="flex items-center justify-end gap-6 bg-[#FCD3B6] p-4">
+              <span>
+                <FaAngleLeft size={28} />
+              </span>
+              <span>
+                <FaAngleRight size={28} />
+              </span>
             </div>
           </div>
         </div>
