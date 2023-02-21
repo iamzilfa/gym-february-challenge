@@ -29,7 +29,7 @@ const Impact = () => {
                 Chief Impact Officer of Vrije Universiteit Amsterdam
               </p>
               <div className="flex items-center gap-4">
-                <span>Read more</span>
+                <span className="font-medium text-[1.125rem] leading-[1.875rem]">Read more</span>
                 <span>
                   <FaArrowRight />
                 </span>

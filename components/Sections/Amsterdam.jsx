@@ -3,6 +3,9 @@ import Wrapper from "../Wrappers/Wrapper";
 import Black from "../../public/assets/images/black.webp";
 import Red from "../../public/assets/images/red.webp";
 import Image from "next/image";
+import ManRed from "../../public/assets/images/manred.webp"
+import WomanRed from "../../public/assets/images/womanred.webp"
+
 import {
   FaAngleDown,
   FaArrowRight,
@@ -19,13 +22,13 @@ const Amsterdam = () => {
         </div>
         <div>
           <div className="overflow-hidden">
-            <div className="grid grid-cols-5 justify-center items-stretch gap-12 w-[2000px] overflow-hidden">
-              <div className="">
+            <div className="flex justify-center gap-4 items-stretch w-[2000px]">
+              <div className="w-[300px]">
                 {" "}
                 <Image
                   src={Black}
                   alt="black"
-                  className=" object-cover object-center"
+                  className="object-cover pb-10 object-center w-[16.8125rem] h-[22.4375rem]"
                 />
                 <div className="flex">
                   <div>
@@ -40,12 +43,12 @@ const Amsterdam = () => {
                 </div>
               </div>
 
-              <div>
+              <div className="w-[300px]">
                 {" "}
                 <Image
-                  src={Black}
-                  alt="black"
-                  className="object-cover object-center pb-10"
+                  src={Red}
+                  alt="Red"
+                  className="object-cover object-center pb-10 w-[16.8125rem] h-[22.4375rem]"
                 />
                 <div className="flex">
                   <div>
@@ -59,12 +62,12 @@ const Amsterdam = () => {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="w-[300px]">
                 {" "}
                 <Image
-                  src={Black}
-                  alt="black"
-                  className="object-cover object-center pb-10"
+                  src={ManRed}
+                  alt="ManRed"
+                  className="object-cover object-center pb-10 w-[16.8125rem] h-[22.4375rem]"
                 />
                 <div className="flex">
                   <div>
@@ -78,12 +81,12 @@ const Amsterdam = () => {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="w-[300px]">
                 {" "}
                 <Image
-                  src={Black}
-                  alt="black"
-                  className="object-cover object-center pb-10"
+                  src={WomanRed}
+                  alt="WomanRed"
+                  className="object-cover object-center pb-10 w-[16.8125rem] h-[22.4375rem]"
                 />
                 <div className="flex">
                   <div>
@@ -97,12 +100,12 @@ const Amsterdam = () => {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="w-[300px] hover:bg-white">
                 {" "}
                 <Image
                   src={Black}
                   alt="black"
-                  className="object-cover object-center pb-10"
+                  className="object-cover object-center pb-10 w-[16.8125rem] h-[22.4375rem]"
                 />
                 <div className="flex">
                   <div>

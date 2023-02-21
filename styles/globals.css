@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  @apply bg-[#f2efed] 
+body {
+  @apply bg-[#f2efed];
 }
 
-#sear{
-  @apply text-[#fff]
+#sear {
+  @apply text-[#fff];
 }

@@ -4,7 +4,7 @@ import Peop from "../../public/assets/images/people.jpeg";
 
 const People = () => {
   return (
-    <div>
+    <div className="max-w-[2000px] mx-auto">
       <Image src={Peop} alt="Peop" />
     </div>
   );
