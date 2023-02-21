@@ -1,5 +1,6 @@
-const { default: Wrapper } = require("../Wrappers/Wrapper");
+
 import { FaArrowRight } from "react-icons/fa";
+import Wrapper from "../Wrappers/Wrapper";
 
 const Corona = () => {
   return (

@@ -33,8 +33,9 @@ const Impact = () => {
               </div>
             </div>
           </div>
-          <div className="mx-auto md:mb-16 md:px-[20px] md:ml-[6.9995rem] md:mr-[112.005px] md:max-w-[64.25rem]">
-            <div className="pt-[2.8125rem] pb-[2.8125rem] md:pb-0 md:absolute md:-mt-[220px] md:px-[3.75rem] px-[1.25rem] bg-[#fff] md:ml-[15.437rem] md:mr-[15.437rem] imp">
+          <div className="mx-auto md:mb-16 md:px-[20px] md:ml-[6.9995rem] md:mr-[7.0003rem] md:max-w-[64.25rem]">
+            <div className="pt-[2.8125rem] pb-[2.8125rem] md:pb-0 md:absolute md:-mt-[13.75rem] md:px-[3.75rem] px-[1.25rem] bg-[#fff] md:ml-[15.437rem] md:mr-[15.437rem] imp">
+            <div className="hidden md:border-b md:-mx-[3.75rem] md:-mt-9 md:mb-10 border-b-black h-4"></div>
               <h1 className="mb-10 text-[1.5rem] font-light leading-[2.25rem] text-[#cc4100]">
                 Science to impact
               </h1>

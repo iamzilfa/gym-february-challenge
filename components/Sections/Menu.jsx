@@ -15,12 +15,12 @@ const Menu = () => {
     <Wrapper>
       <div className="bg-[#fff] shadow-3xl pt-20 pb-10">
         <div className="max-w-[64.25rem] mx-auto px-[20px]">
-          <div className="grid md:grid-cols-3 gap-5">
+          <div className="grid md:grid-cols-3 gap-10 md:gap-5">
             <div>
-              <h1 className="text-[#0077b3] text-[2.375rem] font-light leading-[3.5rem] mb-5">
+              <h1 className="text-[#0077b3] text-[1.875rem] leading-[2.25rem] md:text-[2.375rem] font-light md:leading-[3.5rem] mb-7 md:mb-5">
                 VU main menu
               </h1>
-              <div className="bg-[#fff] md:shadow-4xl p-[30px] flex flex-col gap-3">
+              <div className="bg-[#fff] md:shadow-4xl md:p-[30px] flex flex-col gap-3">
                 {[
                   "Home",
                   "Education",
@@ -43,10 +43,10 @@ const Menu = () => {
               </div>
             </div>
             <div>
-              <h1 className="text-[#cc4100] text-[2.375rem] font-light leading-[3.5rem] mb-5">
+              <h1 className="text-[#cc4100] text-[1.875rem] leading-[2.25rem] md:text-[2.375rem] font-light md:leading-[3.5rem] mb-5">
                 Most searched
               </h1>
-              <div className="bg-[#fff] md:shadow-4xl p-[30px] flex flex-col gap-3">
+              <div className="bg-[#fff] md:shadow-4xl md:p-[30px] flex flex-col gap-3">
                 {[
                   " Contact us",
                   "People finder",
@@ -69,10 +69,10 @@ const Menu = () => {
             </div>
 
             <div>
-              <h1 className="text-[#008053] text-[2.375rem] font-light leading-[3.5rem] mb-5">
+              <h1 className="text-[#008053] text-[1.875rem] leading-[2.25rem] md:text-[2.375rem] font-light md:leading-[3.5rem] mb-7 md:mb-5">
                 Featured
               </h1>
-              <div className="bg-[#fff] md:shadow-4xl p-[30px] flex flex-col gap-3">
+              <div className="bg-[#fff] md:shadow-4xl md:p-[30px] flex flex-col gap-3">
                 {["Campus tour", "Study guide", "VU Magazine"].map((item) => {
                   return (
                     <div className="flex items-center justify-between">

@@ -1,5 +1,7 @@
 import Wrapper from "../Wrappers/Wrapper";
 import { FaSearch, FaArrowRight } from "react-icons/fa";
+import { CiSearch } from "react-icons/ci";
+import { HiArrowRight } from "react-icons/hi2";
 
 const Search = () => {
   return (
@@ -15,11 +17,11 @@ const Search = () => {
                       type="text"
                       name=""
                       id="sear"
-                      className="bg-transparent text-[1.3725rem] text-[#fff] focus:outline-none placeholder:text-[#fff]"
+                      className="bg-transparent text-[1.3725rem] text-[#fff] font-light leading-[2.1263rem] focus:outline-none placeholder:text-[#fff]"
                       placeholder="Search..."
                     />
                     <button>
-                      <FaSearch size={28} />
+                      <CiSearch size={28} />
                     </button>
                   </span>
                 </form>
@@ -27,7 +29,7 @@ const Search = () => {
               <div className="bg-[#ffff] flex items-center justify-between text-[#0077b3] text-[1.3725rem] font-light leading-[1.875rem] p-5 md:py-[1.875rem] md:px-[2.5rem]">
                 <span>About VU Amsterdam</span>
                 <span>
-                  <FaArrowRight />
+                  <HiArrowRight />
                 </span>
               </div>
             </div>

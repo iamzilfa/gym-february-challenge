@@ -3,7 +3,7 @@ const { default: Wrapper } = require("../Wrappers/Wrapper");
 const Master = () => {
   return (
     <Wrapper>
-      <div className="bg-[#FDFDFD] shadow-3xl py-[60px] px-[20px]">
+      <div className="bg-[#FDFDFD] shadow-3xl py-[60px] px-[20px] mt-48 md:mt-0">
         <div className="max-w-[64.25rem] mx-auto">
           <div className="bg-[#0077B3] w-full flex flex-col md:flex-row items-center justify-between pt-[1.875rem] py-[2.8125rem] px-5 md:py-[2.8125rem] md:px-[3.75rem]">
             <div className="text-[#fff]">

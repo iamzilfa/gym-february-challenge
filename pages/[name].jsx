@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <div className="h-screen grid">
       <div className="m-auto">
-        <h4 className="text-3xl mb-6 max-w-md font-bold">
+        <h4 className="text-3xl mb-6 max-w-md font-bold text-center">
           <span className="capitalize font-bold text-[#333333]">{name}</span>{" "}
           Page
         </h4>

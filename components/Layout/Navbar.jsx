@@ -7,11 +7,19 @@ import { CiUser, CiSearch } from "react-icons/ci";
 import { FcMenu } from "react-icons/fc";
 import { AiOutlinePlus } from "react-icons/ai";
 import { BsArrowRight } from "react-icons/bs";
+import { useRouter } from "next/router";
 
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleMenu = () => setMenuOpen(!menuOpen);
+
+  // REMOVE BACKGROUND
+
+  const dynamic = useRouter().asPath;
+  useEffect(() => setMenuOpen(false), [dynamic]);
+
+  // REMOVE SCROLL
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "auto";

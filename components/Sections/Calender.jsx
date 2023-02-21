@@ -15,8 +15,8 @@ const Calender = () => {
             <h1 className="text-[#0077b3] text-[2.375rem] font-light leading-[3.5rem]">
               Calendar
             </h1>
-            <div className="flex gap-5">
-              <div className="shadow-4xl bg-[#fff] flex items-center gap-16 md:p-4">
+            <div className="flex flex-wrap gap-5">
+              <div className="shadow-4xl bg-[#fff] flex items-center gap-10 md:gap-16 p-3 md:p-4">
                 <h1 className="text-[#333333] text-[1.125rem] font-medium leading-[1.875rem]">
                   All categories
                 </h1>
