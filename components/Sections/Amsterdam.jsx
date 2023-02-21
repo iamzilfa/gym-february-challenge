@@ -22,7 +22,7 @@ const Amsterdam = () => {
         </div>
         <div>
           <div className="overflow-hidden">
-            <div className="flex justify-center gap-4 items-stretch w-[2000px]">
+            <div className="flex justify-center gap-4 items-stretch w-[2000px] -ml-[300px]">
               <div className="w-[300px]">
                 {" "}
                 <Image
@@ -53,7 +53,7 @@ const Amsterdam = () => {
                 <div className="flex">
                   <div>
                     <h1 className="text-[#cc4100] text-[1.5rem] font-light leading-[2.25rem] ">
-                      Vrije Schrijver (Writer in Residence)
+                      VU Dream Teams
                     </h1>
                     <p>Read more</p>
                   </div>
@@ -72,7 +72,7 @@ const Amsterdam = () => {
                 <div className="flex">
                   <div>
                     <h1 className="text-[#cc4100] text-[1.5rem] font-light leading-[2.25rem] ">
-                      Vrije Schrijver (Writer in Residence)
+                    Gravitation Grant recipient Frank van Harmelen
                     </h1>
                     <p>Read more</p>
                   </div>
@@ -91,7 +91,7 @@ const Amsterdam = () => {
                 <div className="flex">
                   <div>
                     <h1 className="text-[#cc4100] text-[1.5rem] font-light leading-[2.25rem] ">
-                      Vrije Schrijver (Writer in Residence)
+                    NWO Spinoza Prize winner Yvette van Kooyk
                     </h1>
                     <p>Read more</p>
                   </div>

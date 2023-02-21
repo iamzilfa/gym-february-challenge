@@ -5,8 +5,8 @@ const Corona = () => {
   return (
     <Wrapper>
       <div className="bg-[#FDFDFD] shadow-3xl">
-        <div className="max-w-[64.25rem] mx-auto py-[60px] px-[20px] ml-[6.9995rem] mr-[7.0003rem]">
-          <div className="-m-[10px] grid grid-cols-2">
+        <div className="max-w-[64.25rem] mx-auto py-[60px] px-[20px] md:ml-[6.9995rem] md:mr-[7.0003rem]">
+          <div className="-m-[10px] grid md:grid-cols-2">
             <div className="m-[10px] shadow-4xl p-6 flex flex-col gap-7">
               <h1 className="text-[#008053] text-[1.5rem] leading-[2.25rem] font-light">UKraine</h1>
               <p className="text-[1.125rem] font-light leading-[1.875rem]">Information and support</p>

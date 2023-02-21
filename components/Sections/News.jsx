@@ -9,8 +9,8 @@ const News = () => {
           <h1 className="mb-[1.5625rem] text-[#3b2171] text-[2.375rem] font-light leading-[3.5rem]">
             News
           </h1>
-          <div className="flex items-center md:gap-[140px]">
-            <div className="flex flex-col md:flex-1 gap-6">
+          <div className="flex flex-col md:flex-row md:items-center gap-9 md:gap-[140px]">
+            <div className="flex flex-col md:flex-1 gap-9 md:gap-6">
               {[
                 {
                   image: "/assets/images/war.jpg",
@@ -29,13 +29,13 @@ const News = () => {
                       <img
                         src={item.image}
                         alt="war"
-                        className="w-[284px] h-[216px] object-cover object-center"
+                        className="w-[9.125rem] h-[7.4969rem] md:w-[284px] md:h-[216px] object-cover object-center"
                       />
                       <div className="relative">
                         <h1 className="text-[#3b2171] text-[18px] font-bold leading-[30px]">
                           {item.date}
                         </h1>
-                        <p className="text-[1.4963rem] font-light leading-[1.875rem] mt-2">
+                        <p className="text-[1.125rem] md:text-[1.4963rem] font-light leading-[1.875rem] mt-2">
                           {item.note}
                         </p>
                         <p className="absolute bottom-0 right-0">
@@ -48,7 +48,7 @@ const News = () => {
               })}
             </div>
 
-            <div className="flex flex-col gap-24 md:w-[20.125rem]">
+            <div className="flex flex-col gap-9 md:gap-24 md:w-[20.125rem]">
               {[
                 {
                   image: "/assets/images/blue.jpeg",
@@ -71,7 +71,7 @@ const News = () => {
                     <img
                       src={item.image}
                       alt="blue"
-                      className="w-[113px] h-[86px] object-cover object-center"
+                      className="w-[9.125rem] h-[7.4969rem] md:w-[113px] md:h-[86px] object-cover object-center"
                     />
                     <div className="relative">
                       <h1 className="text-[#3b2171] text-[18px] font-medium leading-[30px]">

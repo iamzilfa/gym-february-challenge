@@ -5,7 +5,34 @@
 body {
   @apply bg-[#f2efed];
 }
-
-#sear {
-  @apply text-[#fff];
+@layer components {
+  @media (min-width: 640px) {
+    .imp {
+      -webkit-clip-path: polygon(
+        16% 0,
+        100% 0%,
+        100% 57%,
+        0 57%,
+        0 0,
+        10% 0,
+        14% 5%
+      );
+      clip-path: polygon(
+        17% 0,
+        100% 0%,
+        100% 100%,
+        0 100%,
+        0 0,
+        11.2% 0,
+        14.1% 7%
+      );
+    }
+  }
+  .calen {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+  }
+  .calen::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
 }

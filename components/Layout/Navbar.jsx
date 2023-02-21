@@ -1,9 +1,13 @@
 import Wrapper from "../Wrappers/Wrapper";
 import VuLogo from "../../public/assets/vectors/VU-logo.svg";
 import Image from "next/image";
-import { FaRegUser, FaSearch, FaBars } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { CiUser, CiSearch } from "react-icons/ci";
+import { FcMenu } from "react-icons/fc";
+import { AiOutlinePlus } from "react-icons/ai";
+import { BsArrowRight } from "react-icons/bs";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,20 +21,20 @@ const Navbar = () => {
   return (
     <>
       <Wrapper>
-        <nav className="fixed z-30 w-full h-[4.6875rem] flex items-center max-w-[78.1875rem]  justify-between bg-[#fff] shadow-4xl">
+        <nav className="fixed z-30 md:w-full h-[3.75rem] md:h-[4.6875rem] flex items-center md:max-w-[78.1875rem]  justify-between bg-[#fff] shadow-4xl">
           <div className="ml-[1.875rem]">
             <Image src={VuLogo} alt="VuLogo" />
           </div>
-          <div className="bg-[#f2efed] px-[1.875rem] flex items-center h-full text-[]">
-            <span className="cursor-pointer pr-[30px] text-[1.33rem]">NL</span>
-            <span className="cursor-pointer pr-[30px]">
-              <FaRegUser size={20} />
+          <div className="bg-[#f2efed] px-[1.875rem] gap-[10px] md:gap-[30px] flex items-center h-full text-[]">
+            <span className="cursor-pointer text-[1.33rem] font-light">NL</span>
+            <span className="cursor-pointer ">
+              <CiUser className=" text-2xl" />
             </span>
-            <span className="cursor-pointer pr-[30px]">
-              <FaSearch size={20} />
+            <span className="cursor-pointer ">
+              <CiSearch className=" text-2xl" />
             </span>
-            <span className="cursor-pointer pr-[30px] " onClick={handleMenu}>
-              <FaBars size={20} />
+            <span className="cursor-pointer" onClick={handleMenu}>
+              <FcMenu className=" text-2xl text-gray-800" />
             </span>
           </div>
         </nav>
@@ -56,7 +60,7 @@ const Navbar = () => {
               </svg>
             </div>
             <div className="">
-              <div className="flex flex-col justify-between space-y-10 cursor-pointer pt-52 px-36">
+              <div className="flex flex-col justify-between space-y-10 cursor-pointer px-10 pt-32 md:pt-52 md:px-36">
                 {[
                   "Study at VU Amsterdam",
                   "Research",
@@ -69,44 +73,14 @@ const Navbar = () => {
                   return (
                     <Link key={i} href={e}>
                       <div className="flex justify-between max-w-sm">
-                        <p className="text-[1.4rem] whitespace-nowrap font-semibold">
+                        <p className="text-[1.25rem] md:text-[1.4rem] text-[#333] whitespace-nowrap font-medium md:font-semibold">
                           {" "}
                           {e}
                         </p>
                         {i === 0 || i === 1 ? (
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="30"
-                            height="30"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="1.1"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="feather feather-plus"
-                          >
-                            <line x1="12" y1="5" x2="12" y2="19" />
-                            <line x1="5" y1="12" x2="19" y2="12" />
-                          </svg>
+                          <AiOutlinePlus className="text-[25px] font-thin" />
                         ) : (
-                          <svg
-                            className="ml-36"
-                            Name="fill-[#000000]"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="30px"
-                            height="30px"
-                            viewBox="0 0 24 24"
-                            fill="#000000"
-                          >
-                            <path
-                              d="M20 12L4 12M20 12L14 18M20 12L14 6"
-                              stroke="#000000"
-                              stroke-width="1.1"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
+                         <BsArrowRight className="text-[25px] font-thin" />
                         )}
                       </div>
                     </Link>
