@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#f2efed];
+}
+
+#sear {
+  @apply text-[#fff];
+}
